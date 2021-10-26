@@ -14,6 +14,7 @@
 		3E6A6E0E2727E51700BAB151 /* TrafficLightsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A6E0D2727E51700BAB151 /* TrafficLightsSwiftUITests.swift */; };
 		3E6A6E182727E51700BAB151 /* TrafficLightsSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A6E172727E51700BAB151 /* TrafficLightsSwiftUIUITests.swift */; };
 		3E6A6E1A2727E51700BAB151 /* TrafficLightsSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A6E192727E51700BAB151 /* TrafficLightsSwiftUIUITestsLaunchTests.swift */; };
+		3E6A6E2A2727E5DF00BAB151 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A6E292727E5DF00BAB151 /* PanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3E6A6E132727E51700BAB151 /* TrafficLightsSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightsSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6A6E172727E51700BAB151 /* TrafficLightsSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsSwiftUIUITests.swift; sourceTree = "<group>"; };
 		3E6A6E192727E51700BAB151 /* TrafficLightsSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E6A6E292727E5DF00BAB151 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3E6A6DFC2727E50E00BAB151 /* TrafficLightsSwiftUIApp.swift */,
-				3E6A6DFE2727E50E00BAB151 /* ContentView.swift */,
+				3E6A6E282727E55C00BAB151 /* View */,
 				3E6A6E002727E51600BAB151 /* Assets.xcassets */,
 				3E6A6E022727E51600BAB151 /* Preview Content */,
 			);
@@ -125,6 +127,15 @@
 				3E6A6E192727E51700BAB151 /* TrafficLightsSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = TrafficLightsSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		3E6A6E282727E55C00BAB151 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E6A6DFE2727E50E00BAB151 /* ContentView.swift */,
+				3E6A6E292727E5DF00BAB151 /* PanelView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6A6E2A2727E5DF00BAB151 /* PanelView.swift in Sources */,
 				3E6A6DFF2727E50E00BAB151 /* ContentView.swift in Sources */,
 				3E6A6DFD2727E50E00BAB151 /* TrafficLightsSwiftUIApp.swift in Sources */,
 			);
